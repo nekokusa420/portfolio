@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
-        <title>Kit's portfolio123</title>
+        <title>Kit's portfolio</title>
       </Head>
       {/* <h1 className="text-red-800">Lets build and AWESOME portfolio</h1> */}
 
