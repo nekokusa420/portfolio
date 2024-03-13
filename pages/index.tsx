@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import BackgroundCircles from "../components/BackgroundCircles";
 import About from "../components/About";
+import WorkExperience from "../components/WorkExperience";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +13,6 @@ const Home: NextPage = () => {
         <title>Kit's portfolio</title>
       </Head>
       {/* <h1 className="text-red-800">Lets build and AWESOME portfolio</h1> */}
-
       {/* Header */}
       <Header />
       {/* Hero */}
@@ -24,6 +24,9 @@ const Home: NextPage = () => {
         <About />
       </section>
       {/* Experience */}
+      <section id="experience" className="snap-center">
+        <WorkExperience />
+      </section>
       {/* Skills */}
       {/* Projects */}
       {/* Contact Me */}
