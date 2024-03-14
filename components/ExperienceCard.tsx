@@ -5,7 +5,7 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className="flex flex-col rouunded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
@@ -18,11 +18,23 @@ export default function ExperienceCard({}: Props) {
         <h4 className="text-4xl font-light">Doctor</h4>
         <p className="font-bold text-2xl mt-1">You better see doctor</p>
         <div className="flex space-x-2 my-2">
-          <img className="h-10 w-10 rounded-full"src="https://na.cx/i/V0G14T9.png" alt="" />
-          <img className="h-10 w-10 rounded-full"src="https://na.cx/i/V0G14T9.png" alt="" />
-          <img className="h-10 w-10 rounded-full"src="https://na.cx/i/V0G14T9.png" alt="" />
+          <img
+            className="h-10 w-10 rounded-full"
+            src="https://na.cx/i/V0G14T9.png"
+            alt=""
+          />
+          <img
+            className="h-10 w-10 rounded-full"
+            src="https://na.cx/i/V0G14T9.png"
+            alt=""
+          />
+          <img
+            className="h-10 w-10 rounded-full"
+            src="https://na.cx/i/V0G14T9.png"
+            alt=""
+          />
         </div>
-        <p>start...end</p>
+        <p className="uppercase py-5 text-gray-300">start...end</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           <li>summary points</li>
           <li>summary points</li>
